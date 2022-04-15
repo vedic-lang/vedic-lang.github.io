@@ -1,0 +1,13 @@
+remote_theme: rundocs/jekyll-rtd-theme
+lang: en
+title: Sanskrit programming language Vedic Script Documentation
+description: The documentation for Vedic Script, world first programming language in sanskrit.
+baseurl: https://github.com/vedicscript/vedicscript
+meta:
+  keywords: vedicscript, vedic,script, programming language, sanskrit, ptprashanttripathi, Pt. Prashant Tripathi
+  author: Pt. Prashant Tripathi
+  google-site-verification: _Ehwbp1SdA9Ki8l2ZPlKzPqCJmMFZC6TZDFbYKgTctk
+google:
+  gtag: GTM-TLXXSMK
+readme_index:
+  with_frontmatter: true
