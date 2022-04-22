@@ -7,7 +7,7 @@ sort: 6
 
 कारक are very useful for manipulating values
 
-there are basically 4 type of कारक currently in vedicscript:
+there are basically 4 type of कारक currently in vedic:
 
 - बूलीयकारक (bUlIyakAraka - Booleanoperator)
 - तार्किककारक (tArkikakAraka - logicaloperator)

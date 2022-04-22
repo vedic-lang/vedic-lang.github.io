@@ -3,7 +3,7 @@ sort: 4
 ---
 ## 📚 Chapter List
 
-Here is a list of features in vedic script that we have implemented
+Here is a list of features in Vedic that we have implemented
 
 - [**मान** (variables)](./variables.md)
 - [**कारक** (operators)](./operators.md)

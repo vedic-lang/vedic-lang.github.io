@@ -5,7 +5,7 @@ sort: 11
 
 >_transliteration: chakram, meaning: round-loop_
 
-VedicScript includes `पर्यन्तम्` loop to execute code repeatedly till it satisfies a specified condition. Unlike `चक्रम्` loop, `पर्यन्तम्` loop only requires condition expression.
+Vedic includes `पर्यन्तम्` loop to execute code repeatedly till it satisfies a specified condition. Unlike `चक्रम्` loop, `पर्यन्तम्` loop only requires condition expression.
 
 For example, here is a for loop that `वद्` all of the numbers ० to ९
 

@@ -1,10 +1,12 @@
-remote_theme: rundocs/jekyll-rtd-theme
+# Site settings
 lang: en
-title: Sanskrit programming language Vedic Script Documentation
-description: The documentation for Vedic Script, world first programming language in sanskrit.
-baseurl: https://github.com/vedicscript/vedicscript
+title: Sanskrit programming language Vedic Documentation
+description: The documentation for Vedic, world first programming language in sanskrit.
+url: "http://vedic.github.io" # the base hostname & protocol for your site
+twitter_username: ptprashant09
+github_username:  vedic
 meta:
-  keywords: vedicscript, vedic,script, programming language, sanskrit, ptprashanttripathi, Pt. Prashant Tripathi
+  keywords: vedic, vedic,script, programming language, sanskrit, ptprashanttripathi, Pt. Prashant Tripathi
   author: Pt. Prashant Tripathi
   google-site-verification: _Ehwbp1SdA9Ki8l2ZPlKzPqCJmMFZC6TZDFbYKgTctk
 google:
