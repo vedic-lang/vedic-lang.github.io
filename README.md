@@ -1,7 +1,4 @@
-﻿---
-sort: 1
----
-<p align="center"><a href="https://vedic.github.io"><img alt="Vedic" src="https://raw.githubusercontent.com/vedic-lang/vedic/HEAD/.github/logo.png" width="300vw"></a></p>
+﻿<p align="center"><a href="https://vedic.github.io"><img alt="Vedic" src="https://raw.githubusercontent.com/vedic-lang/vedic/HEAD/.github/logo.png" width="300vw"></a></p>
 
 ## 🙏 Welcome
 
@@ -23,4 +20,10 @@ According to [wikipedia](https://en.wikipedia.org/wiki/Vedic_period) The Vedic p
 
 ## how to use Vedic?
 
-Vedic is very easy to set up, just follow the [Install Instructions](how-to-use.md) for your system 
+### 🌐 Online
+
+Vedic can be practiced in our [Online IDE here](https://vedic.github.io/vedic-ide)
+
+### 💻 Desktop
+
+Vedic is very easy to set up, just follow the [Install Instructions](download.md) for any os **Mac**, **windows** or **Linux**

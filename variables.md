@@ -22,7 +22,7 @@ Vedic has three standard data types:
 
 In the following example, we set a variable named `नाम` (t: _nāma_, m: _Name_).
 
-```js
+```vedic
 मान नाम = 'रामानुजन्';
 ```
 
@@ -47,13 +47,13 @@ Vedic supports Devanagari numerals which are base 10 decimal based number system
 
 In the following example, we set a variable named `आयु` (t: _āyu_, m: _age_).
 
-```js
+```vedic
 मान आयु = ३२;
 ```
 
 and to float are also same
 
-```js
+```vedic
 मान पाई   = ३.१४१५९;
 ```
 
@@ -61,7 +61,7 @@ and to float are also same
 
 This allows you to write raw `सत्य` ( _true_ ) or `असत्य` ( _false_ ) values:
 
-```js
+```vedic
 मान क = सत्य;
 मान ख = असत्य;
 ```

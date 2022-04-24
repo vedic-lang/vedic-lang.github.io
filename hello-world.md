@@ -3,9 +3,13 @@ sort: 3
 ---
 ## 🌱 Hello World!
 
-After you have learnt how to use the vedic cli tool, go to the directory where you want to make your first program, create a file `hello.ved` (it can be a different name) then add the following code there
+After you have learnt how to use the vedic cli tool, go to the directory where you want to make your first program
 
-```js
+> we recommend to use [Vedic Syntax Highlighter extension](https://marketplace.visualstudio.com/items?itemName=vedic.vedic-syntax-highlighter) in VS Code. 
+
+Now create a file `hello.ved` (it can be a different name) then add the following code there
+
+```vedic
 वद् "हेलो विश्व!";
 ```
 
