@@ -30,7 +30,7 @@ there are basically 4 type of कारक currently in vedic:
 | >= | महत्तर वा समान | greater than or equal to |
 | <= | लघुत्तर वा समान | less than or equal to |
 | && | च (cA) | and |
-| \|\| | वा (vA) | or |Variables (
+| \|\| | वा (vA) | or |
 | ! | न (nA) |	not |
 
 
