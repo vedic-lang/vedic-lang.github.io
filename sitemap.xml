@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://vedic-lang.github.io/</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/download.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/how-to-use.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/hello-world.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/chapters-list.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/variables.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/operators.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/list.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/if-else.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/switch.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/for-loop.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/while-loop.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/functions.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/import.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/comment.html</loc>
+  <lastmod>2022-04-24T10:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vedic-lang.github.io/vedic-ide/</loc>
+  <lastmod>2022-04-24T09:34:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
