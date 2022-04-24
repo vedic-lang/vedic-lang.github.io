@@ -22,7 +22,7 @@ According to [wikipedia](https://en.wikipedia.org/wiki/Vedic_period) The Vedic p
 
 ### 🌐 Online
 
-Vedic can be practiced in our [Online IDE here](https://vedic.github.io/vedic-ide)
+Vedic can be practiced in our [Online IDE here](https://vedic-lang.github.io/vedic-ide/)
 
 ### 💻 Desktop
 
