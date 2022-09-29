@@ -10,7 +10,7 @@ There is no need to download anything - Just click on the chapter you wish to be
 
 `vedic` is still under construction - If you wish to contribute, please click on our [Github repo](https://github.com/vedic-lang/vedic).
 
-## 🌳 Inrto
+## 🌳 Intro
 
 The Sanskrit language is world's oldest language.
 Sanskrit had been the language in use from the Vedic period.
