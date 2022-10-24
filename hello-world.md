@@ -10,10 +10,10 @@ After you have learnt how to use the vedic cli tool, go to the directory where y
 Now create a file `hello.ved` (it can be a different name) then add the following code there
 
 ```vedic
-वद् "हेलो विश्व!";
+वद "हेलो विश्व!";
 ```
 
-Here `वद्` is an native function that will display out any value put into it, here it will output `हेलो विश्व!`.
+Here `वद` is an native function that will display out any value put into it, here it will output `हेलो विश्व!`.
 
 Run it using the following commend
 

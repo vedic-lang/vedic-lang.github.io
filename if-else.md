@@ -18,13 +18,13 @@ expressions for conditional control flow.
 ```ved
 मान आयु = ३२;
 यदि (आयु == २५) {
-  वद् "वयं सम वयस्काः एव"; # We're the same age
+  वद "वयं सम वयस्काः एव"; # We're the same age
 }
 अथ यदि (आयु > २५) {
-  वद् "वयं सम वयस्काः न एव"; # We're not the same age
+  वद "वयं सम वयस्काः न एव"; # We're not the same age
 }
 अथ {
-  वद् "मम अपेक्षया कनिष्ठः वा"; # Younger to me
+  वद "मम अपेक्षया कनिष्ठः वा"; # Younger to me
 }
 ```
 **output**

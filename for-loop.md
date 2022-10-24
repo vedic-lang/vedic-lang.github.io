@@ -7,13 +7,13 @@ sort: 10
 
 चक्रम् loops are a great way to run code a certain or changing amount of ways in a concise manner. चक्रम् takes in 3 parameters initial value, and condition, and a step size.
 
-For example, here is a for loop that `वद्` all of the numbers ० to ९
+For example, here is a for loop that `वद` all of the numbers ० to ९
 
 ```vedic
 # This will print ० to ९
 चक्रम्(मान अ = ०; अ < १०; मान  अ = अ+ १)
 {
-  वद्  "अ = "+अ;
+  वद  "अ = "+अ;
 } 
 ```
 
@@ -45,7 +45,7 @@ you can stop the चक्रम् loop between the process by using the
   यदि (अ > ५){
     विराम्;
  }
-  वद्  "अ = " + अ;
+  वद  "अ = " + अ;
 }
 ```
 

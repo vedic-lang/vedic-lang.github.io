@@ -11,14 +11,14 @@ To let a सूत्र return a value, use the फल keyword
 
 for a example the following code defines a सूत्र named `योग` that takes 2 मान (varibals) `अ` and `ब` and returns addition of those.
 
-Then, `योग` is called and `वद्`.
+Then, `योग` is called and `वद`.
 
 ```ved
 सूत्र योग(अ,ब){
   फल अ+ब;
 }
 
-वद् योग(११,२२); # it will print ३३ 
+वद योग(११,२२); # it will print ३३ 
 ```
 
 **output**

@@ -7,14 +7,14 @@ sort: 11
 
 Vedic includes `पर्यन्तम्` loop to execute code repeatedly till it satisfies a specified condition. Unlike `चक्रम्` loop, `पर्यन्तम्` loop only requires condition expression.
 
-For example, here is a for loop that `वद्` all of the numbers ० to ९
+For example, here is a for loop that `वद` all of the numbers ० to ९
 
 ```vedic
 # This will print १ to ५
 मान अ = १;
 पर्यन्तम्( अ <= ५)
 {
-  वद् अ;
+  वद अ;
   मान अ = अ+ १;
 }
 ```

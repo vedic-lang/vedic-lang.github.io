@@ -15,7 +15,7 @@ here is the easiest way to create a Vedic `सूचि`.
 ```ved
 # This will declare a simple सूचि 
 मान क = [["आम",१ ],["संतरा",२],["सेब",३]];
-वद् क;
+वद क;
 ```
 
 **Output:**
@@ -41,7 +41,7 @@ You can also create an `सूचि`, and then add the elements:
 मान सप्तर्षि[]= "Gautama";
 मान सप्तर्षि[]= "Jamadagni";
 
-वद् सप्तर्षि;
+वद सप्तर्षि;
 ```
 
 **Output:**
@@ -61,7 +61,7 @@ You can also create an `सूचि`, and then add the elements:
 **Example:**
 
 ```ved
-वद् कुल(सप्तर्षि);
+वद कुल(सप्तर्षि);
 ```
 
 **Output:**
