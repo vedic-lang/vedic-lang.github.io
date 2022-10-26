@@ -2,9 +2,12 @@
 lang: en
 title: Vedic Documentation
 description: The documentation for Vedic, world first programming language in sanskrit.
-url: "http://vedic.github.io" # the base hostname & protocol for your site
+url: https://vedic-lang.github.io # the base hostname & protocol for your site
 twitter_username: ptprashant09
-github_username:  vedic
+author: Pt. Prashant Tripathi
+github_username: vedic-lang
+keywords: vedic, vedic,script, programming language, sanskrit, ptprashanttripathi, Pt. Prashant Tripathi
+google-site-verification: _Ehwbp1SdA9Ki8l2ZPlKzPqCJmMFZC6TZDFbYKgTctk
 meta:
   keywords: vedic, vedic,script, programming language, sanskrit, ptprashanttripathi, Pt. Prashant Tripathi
   author: Pt. Prashant Tripathi
