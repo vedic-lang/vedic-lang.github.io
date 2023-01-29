@@ -9,7 +9,7 @@ sort: 5
 Like in mathematics and programming languages, vedic also has variables that allow
 you to store values of any type under a variable name.
 
-To create a variable, you can use the `मान` syntex. the keyword `मान` is followed by the variable name, and an equals sign (`=`), and then the value. to assign new value or update it value you need to follow the same steps.
+To create a variable, you can use the `मान` syntax. The keyword `मान` is followed by the variable name, and an equals sign (`=`), and then the value. To assign new value or update it value you need to follow the same steps.
 
 
 ## Data Types
