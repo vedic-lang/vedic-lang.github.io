@@ -8,26 +8,15 @@ vedic can be installed from the repositories of the following distributions:
 
 | OS | Releases |
 | --- | --- |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" height="16"/> Windows [64-bit] | [Download v1.2.2](https://github.com/vedic-lang/vedic/releases/download/v1.2.2/vedic-lang_1.2.2_windows.zip)  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian / <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu | [Download v1.2.2](https://github.com/vedic-lang/vedic/releases/download/v1.2.2/vedic-lang_1.2.2.deb) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/202px-Apple_logo_grey.svg.png" height="16"/> macOS [64-bit] | [Download v1.2.2](https://github.com/vedic-lang/vedic/releases/download/v1.2.2/vedic-lang_1.2.2-macos.zip) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" height="16"/> Windows [64-bit] | [Download v2.0.4](https://github.com/vedic-lang/vedic/releases/download/v2.0.4/vedic-win-x86_64-installer.msi)  |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian / <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu | [Download v2.0.4](https://github.com/vedic-lang/vedic/releases/download/v2.0.4/vedic-linux-x86_64.deb) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/202px-Apple_logo_grey.svg.png" height="16"/> macOS [64-bit] | [Download v2.0.4](https://github.com/vedic-lang/vedic/releases/download/v2.0.4/vedic-darwin-x86_64.tar.gz) |
 
-### Other Linux distributions
-
-On other Linux systems, you can download binary archive from [vedic_1.2.2_linux.tar.gz](https://github.com/vedic-lang/vedic/releases/download/v1.2.2/vedic-lang_1.2.2_linux.tar.gz) and Install via following command:
+### Using Shell (Linux and macOS):
 
 ```bash
-mkdir -p $HOME/vedic && tar zxf vedic_1.2.2_linux.tar.gz -C $HOME/vedic
-export PATH=$PATH:$HOME/vedic
+curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
 ```
-
 
 **One-line commands to install vedic on your system.**
 
-## Install via Package Manager
-
-**With [NPM](https://www.npmjs.com/package/vedic-lang):**
-
-```sh
-npm install vedic-lang
-```
