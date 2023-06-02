@@ -11,10 +11,11 @@ For example, here is a for loop that `वद` all of the numbers ० to ९
 
 ```vedic
 # This will print ० to ९
-चक्रम्(मान अ = ०; अ < १०; मान  अ = अ+ १)
+चक्र(मान अ = ०; अ < १०; अ = अ+ १)
 {
-  वद  "अ = "+अ;
-} 
+  # चक्रम् takes in 3 parameters initial value, and condition, and a step size
+  वद("अ =",अ);
+}  
 ```
 
 This ends up outputting
@@ -32,21 +33,20 @@ This ends up outputting
 अ = ९
 ```
 
-### Bonus tip:
+### Viram:
 
 you can stop the चक्रम् loop between the process by using the 
 
-**विराम्** (_transliteration: virAm, meaning: stop_) keyword:
+**विराम** (_transliteration: virAm, meaning: stop_) keyword:
 
 ```vedic
 # This will print only till ५, it will break after अ = ५
-चक्रम्(मान अ = ०; अ < १०; मान  अ = अ+ १)
-{
-  यदि (अ > ५){
-    विराम्;
- }
-  वद  "अ = " + अ;
-}
+चक्र(मान अ = ०; अ < १०; अ = अ+ १){
+    यदि (अ >= ५){
+        विराम;  # viram is like continue
+    }
+    वद("अ =>",अ);    
+} 
 ```
 
 **output**
@@ -57,5 +57,29 @@ you can stop the चक्रम् loop between the process by using the
 अ = २
 अ = ३
 अ = ४
-अ = ५
+```
+
+### Agrim:
+
+you can skip the चक्रम् loop between the process by using the 
+
+**विराम** (_transliteration: AgrIm, meaning: skip_) keyword:
+
+```vedic
+# This will print only till ५, it will skip after अ = २
+चक्र(मान अ = ०; अ < ५; अ = अ+ १){
+    यदि (अ == २){
+        अग्रिम; # Agrim is like skip
+    }
+    वद("अ =>",अ);
+} 
+```
+
+**output**
+
+```bash
+अ = ०
+अ = १
+अ = ३
+अ = ४
 ```

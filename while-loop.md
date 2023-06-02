@@ -10,18 +10,19 @@ Vedic includes `पर्यन्तम्` loop to execute code repeatedly til
 For example, here is a for loop that `वद` all of the numbers ० to ९
 
 ```vedic
-# This will print १ to ५
-मान अ = १;
-पर्यन्तम्( अ <= ५)
+# This will print ० to ५
+मान अ = ०;
+पर्यन्त( अ <= ५)
 {
-  वद अ;
-  मान अ = अ+ १;
-}
+  वद(अ);
+  अ = अ+ १;
+} 
 ```
 
 **Output:**
 
 ```bash
+०
 १
 २
 ३
@@ -29,4 +30,4 @@ For example, here is a for loop that `वद` all of the numbers ० to ९
 ५
 ```
 
-> you can also use **विराम्** keyword to stop the पर्यन्तम् loop same as चक्रम् loop
+> you can also use **विराम** and **विराम** keyword in पर्यन्तम् aslo same as चक्रम् loop

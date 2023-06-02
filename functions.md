@@ -18,7 +18,7 @@ Then, `योग` is called and `वद`.
   फल अ+ब;
 }
 
-वद योग(११,२२); # it will print ३३ 
+वद(योग(११,२२)); # it will print ३३ 
 ```
 
 **output**
