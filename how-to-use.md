@@ -10,25 +10,25 @@ to verify that it works type `vedic -v` in your terminal, after you have verifie
 If you want a quick and concise tutorial on how to use the vedic tool simply run `vedic --help` and it will give you a short description of each option, here this will go into more detail.
 
 ```bash
-Vedic
+Vedic v2.0.4
 
-Version: 1.2.0
+Vedic is a programming language that is designed to be easy to learn and use.
 
-Description: Vedic is World first Programming launguage in Sanskrit
+Developed by: Pt. Prashant Tripathi
 
-Usage: 
-	vedic [path/to/script.ved] --options
-	
-Options: 
-	-d --debug    Run in Debug Mod
-	-v --version  Print version number
-	-h --help     Print Vedic CLI help
+Usage: vedic [--option] [path/to/script.ved]
 
-Examples:
+Options:
+-h, --help      Show this vedic cli help message
+-v, --version   Print version number
+-r, --repl      Run the vedic repl
+
+Examples: 
+➤ to run a vedic script
 	vedic script.ved
 
-  > You can also run command + option at once:
-	vedic script.ved -d  
+➤ to start the vedic repl
+	vedic -r
 ```
 
 Now that you understand this, go to the directory you wish to have your program in create a `.ved` file (alternatively you can use `.v` or `.veda`) and start on [Hello World!](./hello-world.md)

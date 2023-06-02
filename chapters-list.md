@@ -13,5 +13,5 @@ Here is a list of features in Vedic that we have implemented
 - [**पर्यन्तम्** (while loop)](./while-loop.md)
 - [**सूत्र** (functions)](./functions.md)
 - [**विधि** (class)](./class.md)
-- [**अवहन्** (import)](./import.md)
+- [**अवहन** (import)](./import.md)
 - [**टिप्पणी** (comment)](./comment.md)

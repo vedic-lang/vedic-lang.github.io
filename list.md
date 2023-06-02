@@ -15,13 +15,13 @@ here is the easiest way to create a Vedic `सूचि`.
 ```ved
 # This will declare a simple सूचि 
 मान क = [["आम",१ ],["संतरा",२],["सेब",३]];
-वद क;
+वद(क); 
 ```
 
 **Output:**
 
 ```bash
-[ [ 'आम', '१' ], [ 'संतरा', '२' ], [ 'सेब', '३' ] 
+[[ 'आम', १ ], [ 'संतरा', २ ], [ 'सेब', ३ ]] 
 ```
 
 ### Adding elements to a सूचि
@@ -31,17 +31,18 @@ You can also create an `सूचि`, and then add the elements:
 **Example:**
 
 ```ved
+# Adding elements to a सूचि
 मान सप्तर्षि = []; # रिक्त सूचि - Empty list
 
-मान सप्तर्षि[]= "Kashyapa";
-मान सप्तर्षि[]= "Atri";
-मान सप्तर्षि[]= "Vasistha";
-मान सप्तर्षि[]= "Vishwamitra";
-मान सप्तर्षि[]= "Bharadvaja";
-मान सप्तर्षि[]= "Gautama";
-मान सप्तर्षि[]= "Jamadagni";
+सप्तर्षि.आगम("Kashyapa");
+सप्तर्षि.आगम("Atri");
+सप्तर्षि.आगम("Vasistha");
+सप्तर्षि.आगम("Vishwamitra");
+सप्तर्षि.आगम("Bharadvaja");
+सप्तर्षि.आगम("Gautama");
+सप्तर्षि.आगम("Jamadagni");
 
-वद सप्तर्षि;
+वद(सप्तर्षि);
 ```
 
 **Output:**
@@ -61,11 +62,11 @@ You can also create an `सूचि`, and then add the elements:
 **Example:**
 
 ```ved
-वद कुल(सप्तर्षि);
+वद("लंबाई =",कुल(सप्तर्षि));
 ```
 
 **Output:**
 
 ```bash
-७
+लंबाई = ७
 ```

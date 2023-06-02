@@ -14,5 +14,5 @@ Example :
 ```ved
 # this is a comment
  
-वद "सफल";  
+वद("सफल");  
 ```
