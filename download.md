@@ -2,21 +2,34 @@
 sort: 1
 ---
 
-## Download vedic
+## For Linux and macOS (via Shell):
 
-vedic can be installed from the repositories of the following distributions:
+**Install Vedic on your system with just one command.**
 
-| OS | Releases |
-| --- | --- |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" height="16"/> Windows [64-bit] | [Download v2.0.4](https://github.com/vedic-lang/vedic/releases/download/v2.0.4/vedic-win-x86_64-installer.msi)  |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Ardebian_logo.svg" height="16"/> Debian / <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Ubuntu_logoib.svg/1200px-Ubuntu_logoib.svg.png" height="16"/> Ubuntu | [Download v2.0.4](https://github.com/vedic-lang/vedic/releases/download/v2.0.4/vedic-linux-x86_64.deb) |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/202px-Apple_logo_grey.svg.png" height="16"/> macOS [64-bit] | [Download v2.0.4](https://github.com/vedic-lang/vedic/releases/download/v2.0.4/vedic-darwin-x86_64.tar.gz) |
-
-### Using Shell (Linux and macOS):
+Open your terminal and run the following command:
 
 ```bash
 curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
 ```
 
-**One-line commands to install vedic on your system.**
+This command will download and execute the Vedic installation script, automatically setting up Vedic on your system.
 
+
+## For Windows (via Installer):
+
+Vedic can be installed on Windows by following these steps:
+
+1. Click on the below "Downloads" button or link to start the download.
+
+- <a href="https://github.com/vedic-lang/vedic/releases/latest/download/vedic-win-x86_64-installer.msi">
+   <img src="assets/images/win-download-button.png" height="75"/>
+   <br>Download Windows [64-bit]
+</a>
+   
+2. Once the download is complete, double-click on the downloaded file to start the installation process.
+
+That's it! You are now ready to use Vedic on your system.
+
+If you encounter any issues during the installation process, please refer to the Vedic documentation or reach out to our support team for assistance.
+
+Happy coding with Vedic!
