@@ -20,7 +20,7 @@ Vedic can be practiced in our [Online IDE here](https://vedic-lang.github.io/ved
 
 Vedic is very easy to set up, just follow the [Install Instructions](download.md) for any os **Mac**, **windows** or **Linux**
 
-### 📊 Benchmark
+## 📊 Benchmark
 
 <p align="center"><a href="benchmarks"><img alt="Vedic" src="assets/images/benchmarks.png" width="600vw"></a></p>
 
