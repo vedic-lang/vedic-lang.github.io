@@ -11,7 +11,7 @@ LANG_COLORS = {
 let delayed;
 async function graphConfig() {
     // fetch data from JSON file
-    const response = await fetch("data.json");
+    const response = await fetch("https://raw.githubusercontent.com/vedic-lang/vedic/main/benchmarks/data.json");
     const data = await response.json();
     // create a new DataFrame
     const DataFrame = [];
