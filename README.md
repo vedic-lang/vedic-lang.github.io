@@ -1,6 +1,6 @@
 ﻿<p align="center"><a href="https://vedic-lang.github.io"><img alt="Vedic" src="https://raw.githubusercontent.com/vedic-lang/vedic/main/assets/vedic-lang.png" width="300vw"></a></p>
 
-## 🙏 Welcome
+## 🙏 Namaste
 
 Welcome to the `Vedic` interactive tutorial.
 
