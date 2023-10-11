@@ -31,4 +31,4 @@ Examples:
 	vedic -r
 ```
 
-Now that you understand this, go to the directory you wish to have your program in create a `.ved` file (alternatively you can use `.v` or `.veda`) and start on [Hello World!](./hello-world.md)
+Now that you understand this, go to the directory you wish to have your program in create a `.ved` file (alternatively you can use `.veda` or `.vedic`) and start on [Hello World!](./hello-world.md)
