@@ -10,7 +10,7 @@ to verify that it works type `vedic -v` in your terminal, after you have verifie
 If you want a quick and concise tutorial on how to use the vedic tool simply run `vedic --help` and it will give you a short description of each option, here this will go into more detail.
 
 ```bash
-Vedic v2.0.4
+Vedic v2.0.6
 
 Vedic is a programming language that is designed to be easy to learn and use.
 
