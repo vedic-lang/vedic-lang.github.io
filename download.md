@@ -2,7 +2,9 @@
 sort: 1
 ---
 
-## For Linux and macOS (via Shell):
+## For Linux and macOS
+
+### Using Shell:
 
 **Install Vedic on your system with just one command.**
 
@@ -14,8 +16,13 @@ curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
 
 This command will download and execute the Vedic installation script, automatically setting up Vedic on your system.
 
+### Using Homebrew:
 
-## For Windows (via Installer):
+```bash
+brew install vedic
+```
+
+## For Windows (Using Installer):
 
 Vedic can be installed on Windows by following these steps:
 
