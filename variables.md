@@ -57,7 +57,7 @@ and to float are also same
 मान पाई   = ३.१४१५९;
 ```
 
-## तर्क (t. _tarka_, m.  _logic_)	
+### तर्क (t. _tarka_, m.  _logic_)	
 
 This allows you to write raw `सत्य` ( _true_ ) or `असत्य` ( _false_ ) values:
 
