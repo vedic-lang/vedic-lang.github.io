@@ -9,7 +9,7 @@ In vedic, a function is defined using सूत्र keyword.
 Information can be passed into सूत्र as मान.
 To let a सूत्र return a value, use the फल keyword
 
-for a example the following code defines a सूत्र named `योग` that takes 2 मान (varibals) `अ` and `ब` and returns addition of those.
+for a example the following code defines a सूत्र named `योग` that takes 2 मान (variables) `अ` and `ब` and returns addition of those.
 
 Then, `योग` is called and `वद`.
 
