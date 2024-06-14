@@ -118,14 +118,76 @@ Hello, Prashant
 
 > In the above example, the `पठन` function is used to read the user's name from the standard input. The entered name is then printed with a greeting message using the `वद` function.
 
-### 6. प्रकार (prakaar) - returns the type of the given value
+### 6. प्रकार (prakaar)
 
-### 7. समय (samay) - returns the current time in milliseconds
+>_transliteration: prakaar, meaning: type_
 
-### 8. शब्द (shabd) - returns the given string
+The `प्रकार` function in Vedic is used to determine the type of a given value. It returns a string representing the type, which can be useful for debugging and validation purposes. The possible types it can return include `अंक` (number), `वाक्य` (string), `तर्क` (boolean), and others.
 
-### 9. त्रुटि (truti) - throws an error with the given string
+**Example:**
+```ved
+वद(प्रकार(सत्य)); # expect: तर्क
+वद(प्रकार(१.०)); # expect: अंक
+वद(प्रकार(१.०*१.०)); # expect: अंक
+वद(प्रकार(१) == "अंक"); # expect: सत्य
+वद(प्रकार("some random string")); # expect: वाक्य
+```
 
-### 10. वद (vad) - prints the given string
+### 7. समय (samay)
+
+>_transliteration: samay, meaning: time_
+
+The `समय` function in Vedic returns the current time in milliseconds. It is useful for measuring time intervals, logging, and other time-related operations.
+
+**Example:**
+```ved
+वद(समय()); # current time in milliseconds
+```
+
+### 8. शब्द (shabd)
+
+>_transliteration: shabd, meaning: word_
+
+The `शब्द` function in Vedic is used to convert a given value into a string. This can be helpful when you need to ensure a value is in string format, such as for concatenation or display purposes.
+
+**Example:**
+```ved
+मान a = १२३;
+वद(प्रकार(a)); # expect: अंक
+
+# convert to string
+a = शब्द(a); 
+वद(प्रकार(a)); # expect: वाक्य
+```
+
+### 9. त्रुटि (truti)
+
+>_transliteration: truti, meaning: error_
+
+The `त्रुटि` function in Vedic is used to throw a runtime error with a custom message. It allows you to handle exceptional conditions gracefully by providing descriptive error messages.
+
+**Example:**
+```ved
+त्रुटि("Custome error message"); # this will throw a custom runtime error with the message "Custome error message"
+```
+
+**Output:**
+```bash
+# अनुष्ठान-काले-दोषः :
+# File "tests/mool/truti.ved", line 1, column 32
+# दोषः : त्रुटि : Custome error message
+```
+
+### 10. वद (vad)
+
+>_transliteration: vad, meaning: speak/print_
+
+The `वद` function in Vedic is used to print the given strings or values to the standard output. It is similar to the `print` function in other programming languages and is essential for displaying messages and debugging information.
+
+**Example:**
+```ved
+वद("Hello world"); # expect: Hello world
+वद("Hello world", "Hello world"); # expect: Hello world Hello world
+```
 
 By understanding and utilizing these native functions of Vedic, you can start building powerful and culturally inspired programs. Experiment with the language and explore its unique features to unlock its full potential. Happy coding with Vedic!
