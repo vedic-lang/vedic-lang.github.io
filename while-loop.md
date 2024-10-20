@@ -1,9 +1,10 @@
 ---
 sort: 10
 ---
+
 ## पर्यन्तम् (while loop)
 
->_transliteration: chakram, meaning: round-loop_
+> _transliteration: Paryantam, meaning: round-loop_
 
 Vedic includes `पर्यन्तम्` loop to execute code repeatedly till it satisfies a specified condition. Unlike `चक्रम्` loop, `पर्यन्तम्` loop only requires condition expression.
 
@@ -16,7 +17,7 @@ For example, here is a for loop that `वद` all of the numbers ० to ९
 {
   वद(अ);
   अ = अ+ १;
-} 
+}
 ```
 
 **Output:**
@@ -30,4 +31,4 @@ For example, here is a for loop that `वद` all of the numbers ० to ९
 ५
 ```
 
-> you can also use **विराम** and **विराम** keyword in पर्यन्तम् aslo same as चक्रम् loop
+> you can also use **विराम** and **अग्रिम** keyword in पर्यन्तम् aslo same as चक्रम् loop
