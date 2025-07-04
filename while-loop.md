@@ -31,4 +31,4 @@ For example, here is a for loop that `वद` all of the numbers ० to ९
 ५
 ```
 
-> you can also use **विराम** and **अग्रिम** keyword in पर्यन्तम् aslo same as चक्रम् loop
+> you can also use **विराम** and **अग्रिम** keyword in पर्यन्तम् also same as चक्रम् loop

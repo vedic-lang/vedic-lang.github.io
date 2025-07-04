@@ -5,7 +5,7 @@ sort: 14
 
 > _transliteration: AvAhana, meaning: invite_
 
-In vedic we have a built-in **अवहन** `(Import)` method to include **विधि** `(modules)` that exist in separate files. The **अवहन** keyword is followed by a string which contains the path to the `.ved` file to be imported. The file paths should be realtive path to file which is calling that file.
+In vedic we have a built-in **अवहन** `(Import)` method to include **विधि** `(modules)` that exist in separate files. The **अवहन** keyword is followed by a string which contains the path to the `.ved` file to be imported. The file paths should be relative path to file which is calling that file.
 
 ### Example
 
