@@ -168,14 +168,14 @@ The `त्रुटि` function in Vedic is used to throw a runtime error with
 
 **Example:**
 ```ved
-त्रुटि("Custome error message"); # this will throw a custom runtime error with the message "Custome error message"
+त्रुटि("Custom error message"); # this will throw a custom runtime error with the message "Custom error message"
 ```
 
 **Output:**
 ```bash
 # अनुष्ठान-काले-दोषः :
 # File "tests/mool/truti.ved", line 1, column 32
-# दोषः : त्रुटि : Custome error message
+# दोषः : त्रुटि : Custom error message
 ```
 
 ### 10. वद (vad)

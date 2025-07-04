@@ -5,7 +5,7 @@ sort: 7
 
 >_transliteration: sUchi, meaning: List_
 
-सूचि is a bulit in data type of vedic, which can store a ordered set of values of different types. सूचि can be multidimensional.
+सूचि is a built-in data type of vedic, which can store a ordered set of values of different types. सूचि can be multidimensional.
 
 ### Creating an सूचि
 

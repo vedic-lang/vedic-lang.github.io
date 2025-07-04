@@ -15,7 +15,7 @@ Now create a file `hello.ved` (it can be a different name) then add the followin
 
 Here `वद` is an native function that will display out any value put into it, here it will output `नमस्ते विश्व!`.
 
-Run it using the following commend
+Run it using the following command
 
 ```bash
 vedic hello.ved

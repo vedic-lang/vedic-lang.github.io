@@ -9,10 +9,10 @@ sort: 6
 
 there are basically 4 type of कारक currently in vedic:
 
-- बूलीयकारक (bUlIyakAraka - Booleanoperator)
-- तार्किककारक (tArkikakAraka - logicaloperator)
-- गणितकारक (gaNitakAraka - arithmeticoperator)
-- आन्वयिककारक (AnvayikakAraka - relationaloperator)
+- बूलीयकारक (bUlIyakAraka - Boolean Operator)
+- तार्किककारक (tArkikakAraka - Logical Operator)
+- गणितकारक (gaNitakAraka - Arithmetic Operator)
+- आन्वयिककारक (AnvayikakAraka - Relational Operator)
 
 कारक in vedic include:
 
