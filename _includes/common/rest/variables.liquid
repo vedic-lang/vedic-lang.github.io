@@ -23,10 +23,4 @@
 {%- assign schema_date = page.date | default: rest_created_at | date_to_xmlschema -%}
 {%- assign schema_modi = site.time | date_to_xmlschema -%}
 {%- assign schema_surl = page.url  | absolute_url | xml_escape -%}
-
-{% comment %} debug {% endcomment %}
-{%- if site.debug -%}
-    {%- assign base = site.baseurl -%}
-{%- else -%}
-    {%- assign base = "https://cdn.jsdelivr.net/gh/" | append: theme_alias -%}
-{%- endif -%}
+{%- assign base = site.baseurl -%}
