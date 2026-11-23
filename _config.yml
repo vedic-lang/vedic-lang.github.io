@@ -1,7 +1,7 @@
 # Site settings
 lang: en
 title: Vedic Lang Documentation
-description: The documentation for Vedic, world first programming language in sanskrit.
+description: Documentation for Vedic, a Sanskrit programming language interpreter written in Rust.
 url: https://vedic-lang.github.io # the base hostname & protocol for your site
 twitter_username: ptprashant09
 author: Pt. Prashant Tripathi
