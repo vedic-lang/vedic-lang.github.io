@@ -5,6 +5,7 @@ sort: 4
 
 Here is a list of features in Vedic that we have implemented
 
+- [**भाषा संदर्भ** (language reference)](./language-reference.md)
 - [**मान** (variables)](./variables.md)
 - [**कारक** (operators)](./operators.md)
 - [**सूचि** (list)](./list.md)
