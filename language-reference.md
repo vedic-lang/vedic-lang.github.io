@@ -178,7 +178,7 @@ vedic format path/to/file.ved
 vedic format path/to/examples
 ```
 
-In VS Code, the Vedic extension provides **Format** and **Run** buttons for an open Vedic file. Formatting uses the Vedic CLI, so install it first and set the `vedic.executable` setting if the command is not named `vedic` or is not on `PATH`.
+In VS Code, [Vedic Code Formatter](https://marketplace.visualstudio.com/items?itemName=vedic.vedic) provides **Format** and **Run** buttons for an open Vedic file. Formatting uses the Vedic CLI, so install it first and set the `vedic.executable` setting if the command is not named `vedic` or is not on `PATH`.
 
 ## Current limits
 
