@@ -5,7 +5,7 @@ sort: 3
 
 After you have learnt how to use the vedic cli tool, go to the directory where you want to make your first program
 
-> For syntax highlighting in VS Code, install the [Vedic extension](https://marketplace.visualstudio.com/items?itemName=vedic.vedic-syntax-highlighter).
+> For syntax highlighting in VS Code, install the [Vedic extension](https://marketplace.visualstudio.com/items?itemName=vedic.vedic).
 
 Now create a file `hello.ved` (it can be a different name) then add the following code there
 
