@@ -169,6 +169,17 @@ See [Classes](./class.md) for inheritance examples.
 
 Common built-ins include `वद(...)` for output, `पठन()` for input, `कुल(value)` for a list or string length, and `प्रकार(value)` for a type name. The full list is on the [Native functions](./native_functions.md) page.
 
+## Formatting and running programs
+
+The CLI can format one Vedic source file in place or recursively format supported source files under a directory:
+
+```bash
+vedic format path/to/file.ved
+vedic format path/to/examples
+```
+
+In VS Code, the Vedic extension provides **Format** and **Run** buttons for an open Vedic file. Formatting uses the Vedic CLI, so install it first and set the `vedic.executable` setting if the command is not named `vedic` or is not on `PATH`.
+
 ## Current limits
 
 The current implementation does not provide static type declarations, string escape processing, or a `निर्देश` switch statement. This reference covers the language features currently implemented in the interpreter; future versions may extend them.
