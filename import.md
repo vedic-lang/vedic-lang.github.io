@@ -53,7 +53,7 @@ The installer looks up the short name in the index and downloads the approved Gi
 
 ```toml
 [dependencies]
-ganita = "0.1.0"
+ganita = "2.1.2"
 ```
 
 Run `vedic install` from another checkout to restore its recorded versions. Installed sources are shared between projects under `~/.vedic/packages` (or `%USERPROFILE%\.vedic\packages` on Windows). Set `VEDIC_INSTALL` to an absolute directory to choose another location. Each project imports the version it declares. Package installation and imports require the native CLI.
