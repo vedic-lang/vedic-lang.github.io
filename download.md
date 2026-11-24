@@ -4,6 +4,20 @@ sort: 1
 
 ## For Linux and macOS
 
+### Install with APT on Debian and Ubuntu
+
+On Debian 13 or Ubuntu 24.04 for amd64 (64-bit Intel or AMD), add the Vedic repository and install the CLI. The source file includes the key APT uses to verify updates.
+
+```sh
+curl -fsSLo vedic.sources https://vedic-lang.github.io/apt/vedic.sources
+sudo install -m 0644 vedic.sources /etc/apt/sources.list.d/vedic.sources
+sudo apt update
+sudo apt install vedic
+vedic --version
+```
+
+[APT repository and signing information](https://vedic-lang.github.io/apt/)
+
 ### Using Shell:
 
 **Install Vedic on your system with just one command.**
