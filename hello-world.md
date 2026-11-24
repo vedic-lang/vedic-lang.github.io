@@ -3,7 +3,9 @@ sort: 3
 ---
 ## 🌱 Hello World!
 
-After you have learnt how to use the vedic cli tool, go to the directory where you want to make your first program
+Open the example in the browser IDE and press **Run**. The console should show `नमस्ते विश्व!` (“Hello, world!”). Change the greeting inside the quotes and press **Run** again to see your own message. [Open Hello World in the IDE](https://vedic-lang.github.io/vedic-ide/?example=hello-world.ved)
+
+To run the same program on your computer, open a terminal in the directory where you want to save it.
 
 > For VS Code, install [Vedic Code Highlighter](https://marketplace.visualstudio.com/items?itemName=vedic.vedic-syntax-highlighter) for syntax coloring. To format or run this example from the editor, install [Vedic Code Formatter](https://marketplace.visualstudio.com/items?itemName=vedic.vedic) and the Vedic CLI. You can use either extension on its own or install both.
 
