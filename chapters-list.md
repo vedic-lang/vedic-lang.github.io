@@ -15,5 +15,5 @@ Here is a list of features in Vedic that we have implemented
 - [**सूत्र** (functions)](./functions.md)
 - [**मूलसूत्र** (Native functions)](./native_functions.md)
 - [**विधि** (class)](./class.md)
-- [**अवहन** (import)](./import.md)
+- [**आवाहन** (import)](./import.md)
 - [**टिप्पणी** (comment)](./comment.md)

@@ -1,36 +1,35 @@
 ---
 sort: 14
 ---
-## अवहन (import)
+## आवाहन (import)
 
-> _transliteration: AvAhana, meaning: invite_
-
-In vedic we have a built-in **अवहन** `(Import)` method to include **विधि** `(modules)` that exist in separate files. The **अवहन** keyword is followed by a string which contains the path to the `.ved` file to be imported. The file paths should be relative path to file which is calling that file.
+Use `आवाहन` (ITRANS `AvAhana`, “invocation”) to load another Vedic source file. Put the path in double quotes and end the statement with a semicolon. Relative paths start in the directory of the file containing the import.
 
 ### Example
 
-**Filename** : simpleinterest.ved
+Save these two files in the same directory.
+
+**simpleinterest.ved**
 
 ```vedic
-# simple interest calc विधि
-सूत्र मिश्रधन(म,द,स){
-  फल म+(म*द*स/१००);
+सूत्र मिश्रधन(म, द, स) {
+    फल म + (म * द * स / १००);
 }
 ```
-**Filename** : main.ved
+
+**main.ved**
 
 ```vedic
-अवहन "./simpleinterest.ved";
+आवाहन "./simpleinterest.ved";
 
 मान मूलधन = १०००;
 मान दर = ८;
-मान समय = ५; 
-
-वद "मिश्रधन = "+मिश्रधन(मूलधन,दर,समय);
+मान समय = ५;
+वद("मिश्रधन =", मिश्रधन(मूलधन, दर, समय));
 ```
 
-**OUTPUT** : 
+Run `vedic main.ved` with Vedic 3.0 or later. The online IDE currently runs single-file programs.
 
-```bash
+```text
 मिश्रधन = १४००
 ```

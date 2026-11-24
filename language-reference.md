@@ -37,7 +37,7 @@ Save this as `hello.ved` and run it with `vedic hello.ved`:
 | `विराम`, `अग्रिम` | Break and continue the current loop |
 | `सूत्र`, `फल` | Declare a function and return a value |
 | `विधि`, `सन्धि`, `मम`, `मित्र` | Class, inheritance, current instance, and parent instance |
-| `अवहन` | Import a source file |
+| `आवाहन` | Import a source file |
 | `निर्देश` | Reserved for switch-like syntax; no switch statement is currently implemented |
 
 ## Values and variables
@@ -161,10 +161,10 @@ See [Classes](./class.md) for inheritance examples.
 
 ## Imports and built-in functions
 
-`अवहन` loads a `.ved` source file using a path relative to the importing file:
+In Vedic 3.0, `आवाहन` loads a `.ved` file relative to the importing file. When upgrading from 2.x, change each `अवहन` import statement to `आवाहन`.
 
 ```vedic
-अवहन "./सहायक.ved";
+आवाहन "./सहायक.ved";
 ```
 
 Common built-ins include `वद(...)` for output, `पठन()` for input, `कुल(value)` for a list or string length, and `प्रकार(value)` for a type name. The full list is on the [Native functions](./native_functions.md) page.
