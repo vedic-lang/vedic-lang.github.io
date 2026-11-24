@@ -180,6 +180,20 @@ vedic format path/to/examples
 
 In VS Code, [Vedic Code Formatter](https://marketplace.visualstudio.com/items?itemName=vedic.vedic) provides **Format** and **Run** buttons for an open Vedic file. Formatting uses the Vedic CLI, so install it first and set the `vedic.executable` setting if the command is not named `vedic` or is not on `PATH`.
 
+### Script exit codes
+
+When you run `vedic file.ved`, your shell receives an exit code. In a shell script, `vedic file.ved && echo "Finished"` prints the message only when Vedic exits successfully.
+
+| Code | Meaning |
+| --- | --- |
+| `0` | The program finished successfully. |
+| `64` | The CLI received an unknown option or an unsupported file extension. |
+| `65` | The source failed to compile. |
+| `66` | The CLI could not read the source file. Check the path, permissions, and UTF-8 encoding. |
+| `70` | The interpreter encountered a runtime error. |
+
+The `64` and `66` cases above apply to the development CLI. Version 2.1.0 prints a diagnostic and returns `0` for those cases. A program can also set its own exit code with `निर्गम`.
+
 ## Current limits
 
 The current implementation does not provide static type declarations, string escape processing, or a `निर्देश` switch statement. This reference covers the language features currently implemented in the interpreter; future versions may extend them.
