@@ -4,19 +4,11 @@ sort: 1
 
 ## For Linux and macOS
 
-### Install with APT on Debian and Ubuntu
+### Using Homebrew:
 
-On Debian 13 or Ubuntu 24.04 for amd64 (64-bit Intel or AMD), add the Vedic repository and install the CLI. The source file includes the key APT uses to verify updates.
-
-```sh
-curl -fsSLo vedic.sources https://vedic-lang.github.io/apt/vedic.sources
-sudo install -m 0644 vedic.sources /etc/apt/sources.list.d/vedic.sources
-sudo apt update
-sudo apt install vedic
-vedic --version
+```bash
+brew install vedic
 ```
-
-[APT repository and signing information](https://vedic-lang.github.io/apt/)
 
 ### Using Shell:
 
@@ -30,11 +22,19 @@ curl -fsSL https://vedic-lang.github.io/install/install.sh | bash
 
 This command will download and execute the Vedic installation script, automatically setting up Vedic on your system.
 
-### Using Homebrew:
+### Install with APT on Debian and Ubuntu
 
-```bash
-brew install vedic
+On Debian 13 or Ubuntu 24.04 for amd64 (64-bit Intel or AMD), add the Vedic repository and install the CLI. The source file includes the key APT uses to verify updates.
+
+```sh
+curl -fsSLo vedic.sources https://vedic-lang.github.io/apt/vedic.sources
+sudo install -m 0644 vedic.sources /etc/apt/sources.list.d/vedic.sources
+sudo apt update
+sudo apt install vedic
+vedic --version
 ```
+
+[APT repository and signing information](https://vedic-lang.github.io/apt/)
 
 ## For Windows (Using Installer):
 
